@@ -9,6 +9,8 @@ const connect = function () {
 
   conn.on("connect", () => {
     console.log('you ded cuz you idle ')
+    conn.write('Name: AAD')
+    // conn.write('Move: down')
   });
 
   // interpret incoming data as text
